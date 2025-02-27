@@ -58,3 +58,6 @@ JSON object:
     "url": "product url"
   }
 }
+
+Client need to deliver the HTML and CSS code for the popup.
+We impose an ID for the input and the button submit.
