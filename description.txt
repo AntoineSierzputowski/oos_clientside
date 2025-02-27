@@ -1,0 +1,36 @@
+Need to generate 3 JS scripts who will run on the browser.
+
+1. The first script will be conditions to detect if the user is on a product page.
+
+Example:
+if pathname includes '/product/' => run the script 2
+
+
+2. The second script will be a popup that will be shown when the user is on a product page.
+JS script:
+  - detect if the product is in stock
+  - if the product is out of stock, show the popup => script 3
+  - if the product is in stock, do nothing
+
+
+3. The third script will be a popup that will be shown when the user is on a product page.
+JS script:
+- inject HTML code in the page
+- inject CSS code in the page
+- the request POST code
+
+Questions: 
+How we generate these scripts? What information we need to provide? 
+
+- Script 1: the conditions 
+Example: 
+if pathname includes '/product/' or dataLayer.typepage == 'product'
+
+- Script 2: how to detect if the product is out of stock?
+Example: "out_of_stock_indicator": "class= \"unselectable \""
+
+- Script 3: the design of the popup + product details (optional)
+Example:
+- HTML + CSS
+- if need size input => add size input
+
