@@ -34,3 +34,27 @@ Example:
 - HTML + CSS
 - if need size input => add size input
 
+Create a brief to collect the information from the user.
+
+JSON object:
+{
+  "conditions": [
+    {
+      "type": "pathname",
+      "value": "/product/"
+    },
+    {
+      "type": "dataLayer",
+      "value": "dataLayer.typepage == 'product'"
+    }
+  ],
+  "out_of_stock_indicator": "class= \"unselectable \"",
+  "popup": {
+    "html": "html code",
+    "css": "css code",
+  },
+  "product_details": {
+    "name": "product name",
+    "url": "product url"
+  }
+}
